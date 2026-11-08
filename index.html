@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+    
+    <style>
+ body {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+
+    text-align: center;
+      padding-top: 50px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    text-align: center;
+}
+.btn.counter{
+    background-color: pink;
+    color: azure;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    font-size: 30px;
+
+}
+button:hover{
+    background-color: rgb(254, 139, 158);
+
+}
+h2 {
+    color: black;
+    margin: 0 50px;
+    font-size: 45px;
+    text-align: center;
+
+}
+h1 {
+    font-size: 25px;
+    color: rgb(235, 73, 124);
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+ #btnchange {
+            background-color: rgb(254, 139, 158);
+            color: azure;
+            height: 60px;
+            width: 200px;
+            text-align: center;
+            font-size: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+        #btnchange:hover {
+            background-color: rgb(235, 73, 124);
+        }
+        .work {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding-top: 50px;
+        }
+
+        img {
+            width: 350px;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 15px;
+            border: 3px solid white;
+        }
+     a{
+        margin-top: 20px;
+        color: whitesmoke;
+        text-align: center;
+        text-decoration: none;
+        margin-bottom: 20px;
+     }
+     #todo{
+        background-color: rgb(254, 139, 158);
+            color: azure;
+            height: 60px;
+            width: 200px;
+            text-align: center;
+            font-size: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+            
+            margin-left: 540px;
+        }
+     
+    </style>
+</head>
+<body>
+    <h1> <bold>Js Assignment </bold></h1>
+   <h2>Increment and Decrement Counter</h2>
+    <div class="container">
+        <button class="btn counter" onclick="increment()">+</button>
+        <h1 id="counting">0</h1>
+        <button class="btn counter" onclick="decrement()">-</button>
+    </div>
+
+
+    <div class="work">
+        <img id="myimage" alt="wait">
+   <button id="btnchange">change image</button>
+    </div>
+
+  <button id="todo"><a href="https://maniyakhan422-design.github.io/js.assignment4.2/" target="_blank">Click here to see to do list</a></button>
+<script src="console.js"></script>
+</body>
+</html>
